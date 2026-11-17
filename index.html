@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of John Iverson Ulleras, an IT student exploring web development and database applications.">
+  <meta name="theme-color" content="#102c31">
+  <title>John Iverson Ulleras — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap navbar">
+      <a href="#home" class="identity"><span class="mark">JI<span>.</span></span><span>IVR / <b>PORTFOLIO</b></span></a>
+      <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="wrap hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="signal"></span> IT STUDENT · WEB DEVELOPMENT</div>
+          <p class="small-intro">HELLO, I'M</p>
+          <h1>John Iverson<br><em>Ulleras.</em></h1>
+          <p class="tagline">Learning to turn ideas into useful digital solutions.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-accent">View my work <span>↗</span></a>
+            <a href="#about" class="btn btn-outline">About me <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative initials JIU">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="initial-disc"><strong>JIU</strong><span>BUILD · LEARN · CREATE</span></div>
+          <span class="mini-float float-left">&lt;/&gt; WEB</span>
+          <span class="mini-float float-right">{ } CODE</span>
+        </div>
+      </div>
+      <div class="wrap hero-foot"><span>01 / PORTFOLIO</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="wrap split-heading">
+        <div><span class="kicker">01 — ABOUT</span><h2>A little about <span>me.</span></h2></div>
+        <div class="about-details">
+          <p>Hi, I'm <strong>John Iverson Ulleras</strong>, an Information Technology student interested in building websites and working with databases.</p>
+          <p>This portfolio highlights the technologies I am practicing and the projects I create as I learn.</p>
+          <div class="topic-pills"><span>Curious learner</span><span>Problem solver</span><span>Web enthusiast</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="wrap">
+        <span class="kicker">02 — SKILLS</span>
+        <h2>My growing <span>toolbox.</span></h2>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-number">01</div><div class="skill-icon">◇</div><h3>Frontend</h3><p>Building responsive and user-friendly web pages.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div></article>
+          <article class="skill-card"><div class="skill-number">02</div><div class="skill-icon">⌘</div><h3>Backend</h3><p>Working with routes, requests, and application logic.</p><div class="chips"><span>Node.js</span><span>Express</span><span>REST API</span></div></article>
+          <article class="skill-card"><div class="skill-number">03</div><div class="skill-icon">▦</div><h3>Database</h3><p>Organizing and updating data through an ORM.</p><div class="chips"><span>MySQL</span><span>Prisma</span><span>CRUD</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="wrap">
+        <div class="section-bar"><div><span class="kicker">03 — PROJECTS</span><h2>Selected <span>work.</span></h2></div><p>Projects built to practice web development.</p></div>
+        <div class="project-stack">
+          <article class="project-row"><div class="project-art art-one"><div class="window"><div class="window-head"><i></i><i></i><i></i></div><div class="window-body"><span class="line long"></span><span class="line"></span><span class="line short"></span><div class="fake-grid"><i></i><i></i><i></i></div></div></div></div><div class="project-info"><div class="project-meta">PROJECT 01 / FULL STACK</div><h3>Student Management System</h3><p>A CRUD web application for managing sample student records using React, Express, Prisma ORM, and MySQL.</p><a target="_blank" rel="noopener noreferrer" href="https://github.com/Johniversonulleras/StudentManagementSystem">View source code <span>↗</span></a></div></article>
+          <article class="project-row"><div class="project-art art-two"><div class="project-monogram">JIU<span> / web</span></div></div><div class="project-info"><div class="project-meta">PROJECT 02 / FRONTEND</div><h3>Personal Portfolio</h3><p>A responsive website introducing my background, skills, and projects.</p><a target="_blank" rel="noopener noreferrer" href="https://github.com/Johniversonulleras/John-IversonPortfolio">View repository <span>↗</span></a></div></article>
+        </div>
+        <p class="disclaimer">Student Management System is currently a source-code project. Its MySQL-backed CRUD interface requires the Node.js backend and database to run.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact"><div class="wrap contact-panel"><span class="kicker">04 — CONTACT</span><h2>Let's keep <span>building.</span></h2><p>Interested in my projects? Visit my GitHub to explore the code.</p><a class="btn btn-accent" target="_blank" rel="noopener noreferrer" href="https://github.com/Johniversonulleras">Visit GitHub <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© 2026 John Iverson Ulleras</span><span>Designed for learning · Made with HTML & CSS</span></div></footer>
+</body></html>
